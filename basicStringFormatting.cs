@@ -1,4 +1,5 @@
 using System;
+using System.Text;
 
 Console.WriteLine("Hello \"World\"!");
 
@@ -21,3 +22,9 @@ Console.WriteLine($@"C:\Output\{projectName}\Data");
 // Therefore, this code gives an error
 // const projectName = "SecretOperation";
 // Console.WriteLine($@"C:\Output\{projectName}\Data");
+
+StringBuilder stringBuilder = new StringBuilder();
+stringBuilder.Append("Hello");
+stringBuilder.Append(" World!");
+
+Console.WriteLine(stringBuilder.ToString());
