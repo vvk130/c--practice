@@ -23,6 +23,9 @@ Console.WriteLine($@"C:\Output\{projectName}\Data");
 // const projectName = "SecretOperation";
 // Console.WriteLine($@"C:\Output\{projectName}\Data");
 
+
+// Mutable StringBuilder like in Java
+
 StringBuilder stringBuilder = new StringBuilder();
 stringBuilder.Append("Hello");
 stringBuilder.Append(" World!");
